@@ -3,9 +3,7 @@ const maxProfit = (prices) => {
   let buyPrice = prices[0];
   let sellPrice = prices[0];
 
-  for (let i = 0; i < prices.length; i++) {
-    let curPrice = prices[i];
-
+  for (let curPrice of prices) {
     if (curPrice < buyPrice) {
       buyPrice = curPrice;
       sellPrice = curPrice;
