@@ -1,1 +1,1 @@
-leetcode(easy) in JS
+leetcode(easy/medium) in ES6
